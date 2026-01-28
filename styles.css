@@ -55,6 +55,7 @@ body {
     height: 100px;
     color: color-mix(in lab, color percentage, color percentage);
     border: 2px solid rgb(53, 0, 113);
+    border-radius: 15px;
 }
 
 a {
