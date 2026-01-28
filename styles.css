@@ -49,7 +49,7 @@ body {
     height: 50px;
 }
 
-#link-container{
+#link-container {
     display: flex;
     justify-content: center;
 }
