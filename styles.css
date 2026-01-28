@@ -49,6 +49,11 @@ body {
     height: 50px;
 }
 
+#link-container{
+    display: flex;
+    justify-content: center;
+}
+
 .link {
     background-color: rgb(255, 204, 0);
     width: 100px;
