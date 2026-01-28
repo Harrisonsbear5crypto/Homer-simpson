@@ -48,3 +48,11 @@ body {
     color: white;
     height: 50px;
 }
+
+.link {
+    background-color: rgb(255, 204, 0);
+    width: 100px;
+    height: 100px;
+    color: color-mix(in lab, color percentage, color percentage);
+    border: 2px solid rgb(53, 0, 113);
+}
