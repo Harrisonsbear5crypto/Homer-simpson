@@ -7,7 +7,7 @@ function nextImage () {
 
 imageNumber++;
 
-if (imageNumber > 5) imageNumber = 0;
+if (imageNumber > [...images].length - 1) imageNumber = 0;
 
 images[imageNumber].scrollIntoView({behavior: "smooth", block: "start", inline: "nearest" });
 
